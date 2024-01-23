@@ -11,7 +11,7 @@ export default function Row({ isLargeRow, title, id, fetchUrl }) {
 
   //컴포넌트가 처음 렌더링 될 때 실행할 작업
   //(의존성 배열을 빈배열로 넣으면 처음 렌더링 할 때만, 렌더링 될 때마다 실행하고 싶으면 두 번째 인자를 아예 비워놓으면 된다.)
-  useEffect(() => {ㅎ
+  useEffect(() => {
     // 새로 렌더링 되면 영화 데이터를 새로 가져온다
     fetchMovieData();
   }, []);
